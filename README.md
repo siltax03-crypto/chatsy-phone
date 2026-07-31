@@ -1,0 +1,3 @@
+# Chatsy Phone
+
+Copyright (c) 2026 siltax03-crypto. All Rights Reserved.
