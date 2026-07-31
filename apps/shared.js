@@ -1,0 +1,1 @@
+const t={};t.RpInject={sys:{},ctx:{},setSys(t,s){s?this.sys[t]=s:delete this.sys[t]},setCtx(t,s){s?this.ctx[t]=s:delete this.ctx[t]},clearAll(){this.sys={},this.ctx={}},buildSys(){return Object.values(this.sys).filter(Boolean).join("\n\n")},buildCtx(){return Object.values(this.ctx).filter(Boolean).join("\n\n")}};export default t;
