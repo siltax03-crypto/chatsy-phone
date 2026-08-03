@@ -2830,3 +2830,12 @@
     animation: chatsy-wand-dot-pop .25s ease-out;
 }
 @keyframes chatsy-wand-dot-pop { from { transform: scale(0); } to { transform: scale(1); } }
+
+/* ══════════ 📱 화면 맞춤 (설정 옵션 viewportFix) — visualViewport 핀 상태 전용 ══════════ */
+/* JS가 modal에 top/left/width/height(px)와 --ph-vvh(실제 보이는 높이)를 채운다. 옵션 OFF면 아무 영향 없음 */
+.phone-modal.ph-vvfix { align-items: center; padding: 8px; }
+.phone-modal.ph-vvfix .phone-inner { height: min(680px, calc(var(--ph-vvh, 90vh) - 36px)); max-height: none; }
+@media (max-width: 420px) {
+    .phone-modal.ph-vvfix { padding: 0; align-items: center; }
+    .phone-modal.ph-vvfix .phone-inner { height: var(--ph-vvh, 100vh); }
+}
