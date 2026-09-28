@@ -4,7 +4,7 @@
     "generate_interceptor": "chatsyPhoneIntercept",
     "requires": [],
     "optional": [],
-    "js": "index.js?v=20",
+    "js": "index.js?v=21",
     "css": "style.css?v=20",
     "author": "Custom",
     "version": "4.9.0",
