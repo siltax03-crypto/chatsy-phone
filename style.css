@@ -3504,3 +3504,30 @@
 .phone-container .insta-story-av { color: var(--ph-text); background: var(--ph-input-bg); }
 .phone-container .insta-empty-sub { color: var(--ph-text3); opacity: 1; }
 .phone-container .insta-fw-btn.on, .phone-container .insta-empty-btn.ghost { color: var(--ph-text); }
+
+/* 친구 찾기: 팔로잉한 사람 누르면 프사 바꾸기 */
+.phone-container .insta-fw-row.mine { cursor: pointer; border-radius: 12px; }
+.phone-container .insta-fw-row.mine:active { background: var(--ph-input-bg); }
+.phone-container .insta-fw-av { position: relative; overflow: visible; }
+.phone-container .insta-fw-av img { border-radius: 50%; }
+.phone-container .insta-fw-cam { position: absolute; right: -3px; bottom: -3px; width: 19px; height: 19px; border-radius: 50%; background: var(--ph-card); border: 1px solid var(--ph-border-m); font-size: 10px; font-style: normal; display: flex; align-items: center; justify-content: center; }
+.phone-container .insta-fw-sec small { font-weight: 400; color: var(--ph-text4); }
+
+/* 플래너: 한 것=줄, 지난 것=흐리게 · 가계부 돈 흐름표 */
+.phone-container .pl-line.done .pl-text { text-decoration: line-through; text-decoration-thickness: 2px; text-decoration-color: var(--ink); opacity: .55; }
+.phone-container .pl-line.past:not(.done) .pl-text { text-decoration: none; opacity: .5; }
+.phone-container .ledger-flows { margin-top: 12px; background: var(--ph-card); border: 1px solid var(--ph-border); border-radius: 16px; padding: 10px 14px; }
+.phone-container .ledger-flows-head { display: flex; flex-direction: column; gap: 1px; padding-bottom: 6px; border-bottom: 1px solid var(--ph-border); }
+.phone-container .ledger-flows-head b { font-size: 13px; color: var(--ph-text); }
+.phone-container .ledger-flows-head span { font-size: 11px; color: var(--ph-text3); }
+.phone-container .ledger-flow { display: flex; align-items: center; gap: 8px; padding: 8px 0; }
+.phone-container .ledger-flow + .ledger-flow { border-top: 1px solid var(--ph-border); }
+.phone-container .ledger-flow-k { width: 22px; height: 22px; border-radius: 50%; background: var(--ph-input-bg); color: var(--ph-text2); display: flex; align-items: center; justify-content: center; font-weight: 800; flex-shrink: 0; }
+.phone-container .ledger-flow-k.in { color: #2f9e74; }
+.phone-container .ledger-flow-t { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.phone-container .ledger-flow-t b { font-size: 13px; color: var(--ph-text); }
+.phone-container .ledger-flow-t span { font-size: 11px; color: var(--ph-text3); }
+.phone-container .ledger-flow button, .phone-container .ledger-flow-btns button { border: none; background: var(--ph-input-bg); color: var(--ph-text2); border-radius: 8px; padding: 4px 8px; font-size: 12px; cursor: pointer; }
+.phone-container .ledger-flow-btns { display: flex; gap: 8px; margin-top: 8px; }
+.phone-container .ledger-flow-btns button:disabled { opacity: .5; }
+.phone-container .ledger-flow-empty { font-size: 12px; color: var(--ph-text3); padding: 8px 0; }

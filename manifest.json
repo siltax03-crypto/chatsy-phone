@@ -4,10 +4,10 @@
     "generate_interceptor": "chatsyPhoneIntercept",
     "requires": [],
     "optional": [],
-    "js": "index.js?v=18",
-    "css": "style.css?v=18",
+    "js": "index.js?v=20",
+    "css": "style.css?v=20",
     "author": "Custom",
-    "version": "4.8.1",
+    "version": "4.9.0",
     "homePage": "",
     "auto_update": false
 }
