@@ -3539,3 +3539,45 @@
 .phone-container .ledger-flows-head small { font-weight: 500; color: var(--ph-text3); font-size: 11px; margin-left: 4px; }
 .phone-container .ledger-fold { font-size: 12px; color: var(--ph-text3); }
 .phone-container .ledger-flows-sub { font-size: 11px; color: var(--ph-text3); padding: 6px 0 2px; border-bottom: 1px solid var(--ph-border); }
+
+/* ══════════ ❓ Ask Me (2026-11-01) ══════════ */
+.phone-container .knock-who { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.phone-container .knock-who b { display: block; color: var(--ph-text); font-size: 14px; }
+.phone-container .knock-who em { display: block; font-style: normal; color: var(--ph-text3); font-size: 11.5px; }
+.phone-container .knock-av { width: 40px; height: 40px; flex: 0 0 40px; border-radius: 50%; overflow: hidden; background: var(--ph-accent); color: var(--ph-on-accent, var(--ph-bg)); display: flex; align-items: center; justify-content: center; font-weight: 800; }
+.phone-container .knock-av img { width: 100%; height: 100%; object-fit: cover; }
+.phone-container .knock-ask { background: var(--ph-card); border: 1px solid var(--ph-border); border-radius: 16px; padding: 12px; flex-shrink: 0; }
+.phone-container .knock-ask textarea { width: 100%; box-sizing: border-box; border: none; border-radius: 10px; padding: 9px 10px; background: var(--ph-input-bg); color: var(--ph-text); font-size: 13.5px; resize: none; font-family: inherit; }
+.phone-container .knock-check { display: flex; align-items: center; gap: 6px; margin-top: 8px; font-size: 13px; font-weight: 600; color: var(--ph-text); cursor: pointer; }
+.phone-container .knock-check input { width: 16px; height: 16px; margin: 0; accent-color: var(--ph-accent); }
+.phone-container .knock-hint { font-size: 11.5px; color: var(--ph-text3); margin-top: 2px; }
+.phone-container .knock-send { width: 100%; margin-top: 10px; padding: 10px; border: none; border-radius: 12px; background: var(--ph-accent); color: var(--ph-on-accent, var(--ph-bg)); font-weight: 700; font-size: 13.5px; cursor: pointer; }
+.phone-container .knock-tabs { display: flex; gap: 6px; flex-shrink: 0; }
+.phone-container .knock-tabs span { padding: 6px 12px; border-radius: 14px; font-size: 12px; font-weight: 600; background: var(--ph-card-alt); color: var(--ph-text3); cursor: pointer; white-space: nowrap; }
+.phone-container .knock-tabs span.on { background: var(--ph-accent); color: var(--ph-on-accent, var(--ph-bg)); }
+.phone-container .knock-q { background: var(--ph-card); border: 1px solid var(--ph-border); border-radius: 16px; padding: 11px 13px; flex-shrink: 0; }
+.phone-container .knock-q-text { color: var(--ph-text); font-size: 13.5px; font-weight: 600; line-height: 1.45; white-space: pre-wrap; word-break: break-word; }
+.phone-container .knock-tags { display: flex; gap: 5px; margin-top: 6px; flex-wrap: wrap; }
+.phone-container .knock-tags i, .phone-container .knock-from i { font-style: normal; font-size: 10.5px; font-weight: 700; padding: 2px 7px; border-radius: 9px; background: var(--ph-card-alt); color: var(--ph-text3); }
+.phone-container .knock-tags i.ok, .phone-container .knock-from i.me { background: var(--ph-accent); color: var(--ph-on-accent, var(--ph-bg)); }
+.phone-container .knock-tags i.no { background: var(--ph-border-m); color: var(--ph-text2); }
+.phone-container .knock-from { display: flex; align-items: center; gap: 6px; margin-bottom: 5px; flex-wrap: wrap; }
+.phone-container .knock-chain { font-size: 10.5px; color: var(--ph-text3); }
+.phone-container .knock-a { margin-top: 8px; padding: 8px 10px; border-radius: 10px; background: var(--ph-input-bg); color: var(--ph-text2); font-size: 13px; line-height: 1.5; white-space: pre-wrap; word-break: break-word; }
+.phone-container .knock-a b { color: var(--ph-text); margin-right: 5px; }
+.phone-container .knock-a.no { opacity: .75; }
+.phone-container .knock-a em { display: block; font-style: normal; font-size: 10.5px; color: var(--ph-text3); margin-top: 3px; }
+.phone-container .knock-force { margin-top: 8px; padding: 5px 12px; border: 1px solid var(--ph-accent); border-radius: 12px; background: transparent; color: var(--ph-text); font-size: 11.5px; font-weight: 700; cursor: pointer; width: auto; }
+.phone-container .knock-force:disabled { opacity: .55; cursor: default; }
+.phone-container .knock-empty { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; font-size: 13px; color: var(--ph-text3); padding: 24px 0; }
+.phone-container .knock-away { background: var(--ph-card); border: 1px solid var(--ph-border); border-radius: 16px; padding: 12px; flex-shrink: 0; }
+.phone-container .knock-away-big { color: var(--ph-text); font-size: 14px; text-align: center; margin-bottom: 8px; }
+.phone-container .knock-away-big b { font-size: 22px; margin-left: 2px; }
+.phone-container .knock-push { display: flex; gap: 8px; align-items: flex-start; padding: 7px 9px; border-radius: 10px; background: var(--ph-input-bg); margin-top: 5px; font-size: 12px; color: var(--ph-text2); line-height: 1.4; }
+.phone-container .knock-push b { color: var(--ph-text); margin-right: 4px; }
+.phone-container .knock-push em { display: block; font-style: normal; font-size: 10.5px; color: var(--ph-text3); }
+.phone-container .knock-push.old { opacity: .62; }
+.phone-container .knock-set-title { font-size: 13px; font-weight: 700; color: var(--ph-text); margin-bottom: 8px; }
+.phone-container .knock-select { width: 100%; padding: 9px 10px; border: none; border-radius: 10px; background: var(--ph-input-bg); color: var(--ph-text); font-size: 13px; }
+.phone-container .secret-home-page .app-icon-img { position: relative; }
+.phone-container .knock-badge { position: absolute; top: -5px; right: -5px; min-width: 18px; height: 18px; padding: 0 4px; box-sizing: border-box; border-radius: 9px; background: #ff3b30; color: #fff; font-size: 10.5px; font-weight: 700; line-height: 18px; text-align: center; }
