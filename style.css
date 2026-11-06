@@ -629,7 +629,9 @@
 .phone-container .tea-tab { flex: 1; padding: 11px 0 9px; background: none; border: none; font-size: 13px; font-weight: 500; cursor: pointer; color: var(--ph-text4); border-bottom: 2.5px solid transparent; margin-bottom: -2px; transition: all 0.2s; letter-spacing: -0.3px; }
 .phone-container .tea-tab.active { font-weight: 800; color: var(--ph-text); border-bottom-color: var(--ph-accent); }
 .phone-container .tea-write-btn { background: var(--ph-accent); color: var(--ph-on-accent, #fff); border: none; border-radius: 20px; padding: 7px 16px; font-size: 12px; font-weight: 700; cursor: pointer; box-shadow: none; }
-.phone-container .tea-logo { cursor: pointer; user-select: none; pointer-events: auto; } /* app-title 기본 pointer-events:none 해제 */
+.phone-container .tea-logo { user-select: none; }
+/* 로고 눌러 새로고침은 마우스가 있는 PC에서만 (폰은 당겨서 새로고침). app-title 기본 pointer-events:none보다 세게 */
+@media (hover: hover) and (pointer: fine) { .phone-container .app-header > .app-title.tea-logo { cursor: pointer; pointer-events: auto; } }
 .phone-container .tea-logo:active { opacity: 0.6; }
 
 /* Pull to refresh */
